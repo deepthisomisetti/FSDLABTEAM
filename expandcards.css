@@ -1,3 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanding Cards</title>
+    <link rel="stylesheet" href="expandcards.css">
+</head>
+<body>
+    <div class="container">
+        <input type="radio" name="card" id="card1" checked>
+        <label class="card" for="card1" style="background-image: url('image1.jpg');">
+            <h3>EXPANDING CARDS</h3>
+        </label>
+
+        <input type="radio" name="card" id="card2">
+        <label class="card" for="card2" style="background-image: url('image2.jpg');"></label>
+
+        <input type="radio" name="card" id="card3">
+        <label class="card" for="card3" style="background-image: url('image3.jpg');"></label>
+
+        <input type="radio" name="card" id="card4">
+        <label class="card" for="card4" style="background-image: url('image4.jpg');"></label>
+
+        <input type="radio" name="card" id="card5">
+        <label class="card" for="card5" style="background-image: url('image5.jpg');"></label>
+    </div>
+</body>
+</html>
+
 * {
     box-sizing: border-box;
     margin: 0;
