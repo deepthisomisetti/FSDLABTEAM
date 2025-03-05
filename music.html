@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body style="margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif;">
+  <div style="min-height: 100vh; background-color: #1e3a8a; display: flex; align-items: center; justify-content: center; padding: 2rem; color: white;">
+    <div style="width: 100%; max-width: 800px; background-color: rgba(30, 58, 138, 0.8); border-radius: 12px; padding: 2rem; backdrop-filter: blur(10px); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+      <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
+        <i data-lucide="refresh-cw" style="cursor: pointer; opacity: 0.7;"></i>
+        <i data-lucide="skip-back" style="cursor: pointer;"></i>
+        <i data-lucide="play" style="cursor: pointer; width: 32px; height: 32px;"></i>
+        <i data-lucide="skip-forward" style="cursor: pointer;"></i>
+        <i data-lucide="download" style="cursor: pointer; opacity: 0.7;"></i>
+      </div>
+
+      <div>
+        <div style="width: 100%; height: 4px; background-color: rgba(255, 255, 255, 0.2); border-radius: 2px; position: relative; cursor: pointer;">
+          <div style="position: absolute; left: 0; top: 0; height: 100%; width: 35%; background-color: white; border-radius: 2px;"></div>
+        </div>
+        <div style="display: flex; justify-content:space-between; margin-top: 0.5rem; font-size: 0.875rem; color: rgba(255, 255, 255, 0.7);">
+          <span>00:05</span>
+          <span>02:45</span>
+        </div>
+      </div>
+
+      <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 0.5rem;">
+        <div style="display: flex; justify-content: space-between; padding: 0.75rem; border-radius: 6px; cursor: pointer; transition: background-color 0.2s;">
+          <span>All This Is - Joe L's Studio</span>
+          <span style="color: rgba(255, 255, 255, 0.7);">2:46</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.75rem; border-radius: 6px; cursor: pointer; transition: background-color 0.2s;">
+          <span>The Forsaken - Broadwing Studio (Final Mix)</span>
+          <span style="color: rgba(255, 255, 255, 0.7);">8:30</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.75rem; border-radius: 6px; cursor: pointer; transition: background-color 0.2s;">
+          <span>All The King's Men - Broadwing Studio (Final Mix)</span>
+          <span style="color: rgba(255, 255, 255, 0.7);">5:01</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.75rem; border-radius: 6px; cursor: pointer; transition: background-color 0.2s;">
+          <span>The Forsaken - Broadwing Studio (First Mix)</span>
+          <span style="color: rgba(255, 255, 255, 0.7);">8:31</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.75rem; border-radius: 6px; cursor: pointer; transition: background-color 0.2s;">
+          <span>All The King's Men - Broadwing Studio (First Mix)</span>
+          <span style="color: rgba(255, 255, 255, 0.7);">5:05</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 0.75rem; border-radius: 6px; cursor: pointer; transition: background-color 0.2s;">
+          <span>All This Is - Alternate Cuts</span>
+          <span style="color: rgba(255, 255, 255, 0.7);">2:48</span></div>
